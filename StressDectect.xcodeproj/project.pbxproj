@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1ABFC42AA5C18200DC8BBC /* TacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFC32AA5C18200DC8BBC /* TacToeView.swift */; };
+		5A1ABFC62AA5F86300DC8BBC /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFC52AA5F86300DC8BBC /* AlertView.swift */; };
+		5A1ABFC82AA6CDEE00DC8BBC /* TacToeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFC72AA6CDEE00DC8BBC /* TacToeViewModel.swift */; };
+		5A1ABFCC2AA6D5ED00DC8BBC /* TacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFCB2AA6D5ED00DC8BBC /* TacToeModel.swift */; };
+		5A1ABFCE2AA6D8B900DC8BBC /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFCD2AA6D8B900DC8BBC /* NetworkModel.swift */; };
+		5A1ABFD12AA6D96400DC8BBC /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFD02AA6D96400DC8BBC /* NetworkView.swift */; };
+		5A1ABFD32AA728A500DC8BBC /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFD22AA728A500DC8BBC /* NetworkViewModel.swift */; };
+		5A1ABFD62AA81C9000DC8BBC /* WhatToEatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ABFD52AA81C9000DC8BBC /* WhatToEatView.swift */; };
 		98CE2D1C2A16133B00BA099C /* StressDectectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE2D1B2A16133B00BA099C /* StressDectectApp.swift */; };
-		98CE2D1E2A16133B00BA099C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE2D1D2A16133B00BA099C /* ContentView.swift */; };
+		98CE2D1E2A16133B00BA099C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE2D1D2A16133B00BA099C /* WeatherView.swift */; };
 		98CE2D202A16133C00BA099C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CE2D1F2A16133C00BA099C /* Assets.xcassets */; };
 		98CE2D232A16133C00BA099C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CE2D222A16133C00BA099C /* Preview Assets.xcassets */; };
 		98CE2D2D2A16133D00BA099C /* StressDectectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE2D2C2A16133D00BA099C /* StressDectectTests.swift */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A1ABFC32AA5C18200DC8BBC /* TacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacToeView.swift; sourceTree = "<group>"; };
+		5A1ABFC52AA5F86300DC8BBC /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		5A1ABFC72AA6CDEE00DC8BBC /* TacToeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacToeViewModel.swift; sourceTree = "<group>"; };
+		5A1ABFCB2AA6D5ED00DC8BBC /* TacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacToeModel.swift; sourceTree = "<group>"; };
+		5A1ABFCD2AA6D8B900DC8BBC /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		5A1ABFD02AA6D96400DC8BBC /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		5A1ABFD22AA728A500DC8BBC /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		5A1ABFD52AA81C9000DC8BBC /* WhatToEatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToEatView.swift; sourceTree = "<group>"; };
 		98CE2D182A16133B00BA099C /* StressDectect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressDectect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CE2D1B2A16133B00BA099C /* StressDectectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressDectectApp.swift; sourceTree = "<group>"; };
-		98CE2D1D2A16133B00BA099C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98CE2D1D2A16133B00BA099C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		98CE2D1F2A16133C00BA099C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98CE2D222A16133C00BA099C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98CE2D282A16133D00BA099C /* StressDectectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressDectectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +87,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A1ABFC92AA6CDF900DC8BBC /* TacToeGame */ = {
+			isa = PBXGroup;
+			children = (
+				5A1ABFC32AA5C18200DC8BBC /* TacToeView.swift */,
+				5A1ABFC72AA6CDEE00DC8BBC /* TacToeViewModel.swift */,
+				5A1ABFCB2AA6D5ED00DC8BBC /* TacToeModel.swift */,
+			);
+			path = TacToeGame;
+			sourceTree = "<group>";
+		};
+		5A1ABFCA2AA6CE1000DC8BBC /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				98CE2D1D2A16133B00BA099C /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		5A1ABFCF2AA6D94100DC8BBC /* NetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A1ABFCD2AA6D8B900DC8BBC /* NetworkModel.swift */,
+				5A1ABFD02AA6D96400DC8BBC /* NetworkView.swift */,
+				5A1ABFD22AA728A500DC8BBC /* NetworkViewModel.swift */,
+			);
+			path = NetworkDemo;
+			sourceTree = "<group>";
+		};
+		5A1ABFD42AA81C3B00DC8BBC /* WhatToEat */ = {
+			isa = PBXGroup;
+			children = (
+				5A1ABFD52AA81C9000DC8BBC /* WhatToEatView.swift */,
+			);
+			path = WhatToEat;
+			sourceTree = "<group>";
+		};
 		98CE2D0F2A16133B00BA099C = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +147,11 @@
 			isa = PBXGroup;
 			children = (
 				98CE2D1B2A16133B00BA099C /* StressDectectApp.swift */,
-				98CE2D1D2A16133B00BA099C /* ContentView.swift */,
+				5A1ABFD42AA81C3B00DC8BBC /* WhatToEat */,
+				5A1ABFCF2AA6D94100DC8BBC /* NetworkDemo */,
+				5A1ABFCA2AA6CE1000DC8BBC /* Weather */,
+				5A1ABFC92AA6CDF900DC8BBC /* TacToeGame */,
+				5A1ABFC52AA5F86300DC8BBC /* AlertView.swift */,
 				98CE2D1F2A16133C00BA099C /* Assets.xcassets */,
 				98CE2D212A16133C00BA099C /* Preview Content */,
 			);
@@ -257,7 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CE2D1E2A16133B00BA099C /* ContentView.swift in Sources */,
+				5A1ABFC82AA6CDEE00DC8BBC /* TacToeViewModel.swift in Sources */,
+				5A1ABFCC2AA6D5ED00DC8BBC /* TacToeModel.swift in Sources */,
+				5A1ABFC42AA5C18200DC8BBC /* TacToeView.swift in Sources */,
+				5A1ABFC62AA5F86300DC8BBC /* AlertView.swift in Sources */,
+				5A1ABFD62AA81C9000DC8BBC /* WhatToEatView.swift in Sources */,
+				5A1ABFD32AA728A500DC8BBC /* NetworkViewModel.swift in Sources */,
+				5A1ABFD12AA6D96400DC8BBC /* NetworkView.swift in Sources */,
+				98CE2D1E2A16133B00BA099C /* WeatherView.swift in Sources */,
+				5A1ABFCE2AA6D8B900DC8BBC /* NetworkModel.swift in Sources */,
 				98CE2D1C2A16133B00BA099C /* StressDectectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  StressDectectApp.swift
 //  StressDectect
 //
-//  Created by DZ0400458 on 2023/5/18.
+//  Created by Transirizo on 2023/5/18.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct StressDectectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            AllWeatherView()
+//            TacToeView()
+            NetworkView()
         }
     }
 }
